@@ -1,0 +1,25 @@
+body{
+ font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right, #eef0f7, #2a2b2b);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+.nav{
+    margin: 2%;
+    padding: 2%;
+}
+.nav a{
+    text-decoration: double;
+    background-color: gray;
+    color:whitesmoke;
+    padding:10px;
+    border-radius:12px;
+    box-shadow: 0 2px 2px 3px rgb(65, 42, 42)
+}
+.nav a:hover {
+    color :gray;
+    background-color: #fff;
+    box-shadow: 5px 5px 4px 5px yellow;
+}

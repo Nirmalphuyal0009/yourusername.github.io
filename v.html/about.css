@@ -1,0 +1,28 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right ,white , rgb(76, 75, 75));
+    text-align: center;
+}
+h1{
+    color: rgb(62, 67, 81);
+    padding: 9%;
+}
+.nav{
+    padding: 0px;
+}
+.nav a{
+    text-decoration: double;
+    background-color: #978f8f;
+    color: #171718;
+    padding: 10px 25px;
+    border-radius: 13px;
+    font-weight: bold;
+    transition: 0.3 ease;
+    box-shadow: 0 4px 8px rgba(0,0.1,0.1,0.9);
+
+}
+.nav a:hover {
+    background-color: antiquewhite;
+    color: aqua;
+    box-shadow: 4px 4px 4px 4px ;
+}
